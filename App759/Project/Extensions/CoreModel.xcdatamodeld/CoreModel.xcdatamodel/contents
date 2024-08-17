@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="AccessModel" representedClassName="AccessModel" syncable="YES" codeGenerationType="class">
+        <attribute name="accCost" optional="YES" attributeType="String"/>
+        <attribute name="accName" optional="YES" attributeType="String"/>
+        <attribute name="accPhoto" optional="YES" attributeType="String"/>
+        <attribute name="accQuan" optional="YES" attributeType="String"/>
+        <attribute name="accType" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="AddedAccModel" representedClassName="AddedAccModel" syncable="YES" codeGenerationType="class">
+        <attribute name="acBuild" optional="YES" attributeType="String"/>
+        <attribute name="acName" optional="YES" attributeType="String"/>
+        <attribute name="acPhoto" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="BuildModel" representedClassName="BuildModel" syncable="YES" codeGenerationType="class">
+        <attribute name="buAcc" optional="YES" attributeType="String"/>
+        <attribute name="buCost" optional="YES" attributeType="String"/>
+        <attribute name="buDate" optional="YES" attributeType="String"/>
+        <attribute name="buDescr" optional="YES" attributeType="String"/>
+        <attribute name="buName" optional="YES" attributeType="String"/>
+        <attribute name="buPhoto" optional="YES" attributeType="String"/>
+        <attribute name="buType" optional="YES" attributeType="String"/>
+    </entity>
+</model>
